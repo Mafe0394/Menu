@@ -7,14 +7,26 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/nombrePersona"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nombre_persona"
         android:textSize="@dimen/texto_normal"
-        android:id="@+id/nombrePersona"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgImagen"
+        android:src="@drawable/poster_pelicula"
+        app:layout_constraintTop_toBottomOf="@id/nombrePersona"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:onClick="levantarMenuPopUp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

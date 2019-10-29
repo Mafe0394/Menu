@@ -7,4 +7,6 @@
     <string name="menu_edit">Edit</string>
     <string name="menu_delete">Delete</string>
     <string name="nombre_persona">Mafe Vargas</string>
+    <string name="menu_view">View image</string>
+    <string name="menu_view_detail">View image detail</string>
 </resources>
